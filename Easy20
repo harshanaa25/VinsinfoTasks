@@ -1,0 +1,7 @@
+public class _20_List_Empty {
+    public static void main(String[] args) {
+        int[] arr = {};
+        boolean empty = arr.length == 0;
+        System.out.println(empty);
+    }
+}
