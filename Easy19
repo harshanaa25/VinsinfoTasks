@@ -1,0 +1,10 @@
+public class _19_List_To_String {
+    public static void main(String[] args) {
+        char[] arr = {'h', 'e', 'l', 'l', 'o'};
+        String result = "";
+        for (char c : arr) {
+            result += c;
+        }
+        System.out.println(result);
+    }
+}
