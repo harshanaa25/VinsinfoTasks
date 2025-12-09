@@ -1,0 +1,11 @@
+public class _12_Count_Words {
+    public static void main(String[] args) {
+        String str = "hello world";
+        if (str.trim().isEmpty()) {
+            System.out.println(0);
+            return;
+        }
+        String[] words = str.trim().split("\\s+");
+        System.out.println(words.length);
+    }
+}
